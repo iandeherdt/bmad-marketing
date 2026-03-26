@@ -42,12 +42,12 @@ Present the following information clearly:
 | Command | Description |
 |---------|-------------|
 | `/help` | Show this help screen |
-| `/init` | Set up project context (product, audience, goals) |
+| `/marketing-init` | Set up project context (product, audience, goals) |
 | `/brainstorm` | Multi-persona brainstorming session |
 
 ### Recommended Flow
 
-1. Start with `/init` to set up your project context
+1. Start with `/marketing-init` to set up your project context
 2. Use `/maya` or `/market-research` to research your market
 3. Move to `/sam` or `/marketing-strategy` to build your strategy
 4. Use `/claire` for creative briefs and brand guidelines

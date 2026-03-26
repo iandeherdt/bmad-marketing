@@ -4,9 +4,11 @@ This is a marketing team powered by the BMAD method. Each marketing function is 
 
 ## Quick Start
 
-1. Run `/init` to set up your project context (product, audience, goals)
+1. Run `/marketing-init` to set up your project context (product, audience, goals)
 2. Start with `/maya` for market research, then progress through the phases
 3. Use `/help` to see all available agents and workflows at any time
+
+All slash commands are registered as Claude Code custom commands in `.claude/commands/`. They are invoked directly as `/command-name` in the CLI.
 
 ## Agents
 
@@ -51,7 +53,7 @@ When the user invokes a workflow, read and activate the workflow's SKILL.md, the
 ## Utilities
 
 - `/help` → `src/core-skills/help/SKILL.md` — List all agents and workflows
-- `/init` → `src/core-skills/init/SKILL.md` — Set up project context
+- `/marketing-init` → `src/core-skills/init/SKILL.md` — Set up project context (named `marketing-init` to avoid conflict with Claude Code's built-in `/init`)
 - `/brainstorm` → `src/core-skills/brainstorming/SKILL.md` — Multi-persona brainstorming
 
 ## Conventions

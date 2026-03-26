@@ -1,0 +1,1 @@
+Read and activate the brainstorming skill from `src/core-skills/brainstorming/SKILL.md`. Follow all instructions to facilitate a multi-persona brainstorming session using the marketing team perspectives.

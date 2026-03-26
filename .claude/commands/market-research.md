@@ -1,0 +1,1 @@
+Read and activate the market research workflow. First load Maya's persona from `src/bmm-skills/phase-1-research/maya-market-researcher/SKILL.md`, then read and follow the workflow at `src/bmm-skills/phase-1-research/workflows/market-research/workflow.md`. Execute each step file sequentially as instructed in the workflow.

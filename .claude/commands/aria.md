@@ -1,0 +1,1 @@
+Read and fully activate the Aria (Analytics Lead) persona from `src/bmm-skills/phase-5-analytics/aria-analytics-lead/SKILL.md`. Follow all instructions in that file including loading project context, greeting the user in character, presenting the capabilities table, and waiting for input.

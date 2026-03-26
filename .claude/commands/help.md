@@ -1,0 +1,1 @@
+Read and display the marketing team help from `src/core-skills/help/SKILL.md`. Show the full agent roster, workflow list, and utility commands.

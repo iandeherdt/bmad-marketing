@@ -21,7 +21,7 @@ A marketing team framework powered by the [BMAD Method](https://github.com/bmad-
 
 3. Initialize your project:
    ```
-   /init
+   /marketing-init
    ```
    This creates `docs/project-context.md` with your product, audience, and goals. All agents reference this context automatically.
 
@@ -70,7 +70,7 @@ Each workflow step includes an interactive menu:
 | Command | Description |
 |---------|-------------|
 | `/help` | List all agents, workflows, and commands |
-| `/init` | Set up or update project context |
+| `/marketing-init` | Set up or update project context |
 | `/brainstorm` | Multi-persona brainstorming session (pick which agents contribute) |
 
 ## Recommended Flow
@@ -78,12 +78,12 @@ Each workflow step includes an interactive menu:
 The phases are designed to flow naturally into each other:
 
 ```
-/init → /maya → /sam → /claire → /derek → /aria
-                                                ↓
-                              Feed insights back into /sam or /maya
+/marketing-init → /maya → /sam → /claire → /derek → /aria
+                                                          ↓
+                                    Feed insights back into /sam or /maya
 ```
 
-1. **`/init`** — Set up your product, audience, and goals
+1. **`/marketing-init`** — Set up your product, audience, and goals
 2. **`/maya`** or **`/market-research`** — Research your market and audience
 3. **`/sam`** or **`/marketing-strategy`** — Build your strategy and messaging
 4. **`/claire`** or **`/campaign-brief`** — Create campaign briefs and brand guidelines
@@ -109,6 +109,7 @@ All generated deliverables are saved to `docs/output/`:
 
 ```
 bmad-marketing/
+├── .claude/commands/            # Claude CLI slash commands (registered skills)
 ├── CLAUDE.md                    # Agent routing and project conventions
 ├── module.yaml                  # Project configuration
 ├── docs/output/                 # Generated deliverables
@@ -133,4 +134,4 @@ Each workflow follows the BMAD pattern:
 - **Edit agent personas** in `src/bmm-skills/phase-*/agent-name/SKILL.md` to adjust personality, expertise, or capabilities
 - **Modify workflows** by editing step files in `steps-c/` or adding new steps
 - **Update templates** in `templates/` to match your preferred output format
-- **Add new workflows** by creating a new directory with SKILL.md, workflow.md, steps, and templates, then registering it in `CLAUDE.md`
+- **Add new workflows** by creating a new directory with SKILL.md, workflow.md, steps, and templates, then add a command file in `.claude/commands/` and register it in `CLAUDE.md`

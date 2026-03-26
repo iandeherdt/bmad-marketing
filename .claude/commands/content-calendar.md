@@ -1,0 +1,1 @@
+Read and activate the content calendar workflow. First load Sam's persona from `src/bmm-skills/phase-2-strategy/sam-marketing-strategist/SKILL.md`, then read and follow the workflow at `src/bmm-skills/phase-2-strategy/workflows/create-content-calendar/workflow.md`. Execute each step file sequentially as instructed in the workflow.

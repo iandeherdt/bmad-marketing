@@ -1,0 +1,1 @@
+Read and activate the launch campaign workflow. First load Derek's persona from `src/bmm-skills/phase-4-execution/derek-growth-marketer/SKILL.md`, then read and follow the workflow at `src/bmm-skills/phase-4-execution/workflows/launch-campaign/workflow.md`. Execute each step file sequentially as instructed in the workflow.

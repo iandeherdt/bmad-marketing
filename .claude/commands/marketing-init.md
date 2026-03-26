@@ -1,0 +1,1 @@
+Read and activate the project initialization skill from `src/core-skills/init/SKILL.md`. Follow all instructions to gather project context and save to `docs/project-context.md`. This sets up the foundational information that all marketing agents reference.

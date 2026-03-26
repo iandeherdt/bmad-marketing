@@ -1,0 +1,1 @@
+Read and activate the campaign brief workflow. First load Claire's persona from `src/bmm-skills/phase-3-creative/claire-creative-director/SKILL.md`, then read and follow the workflow at `src/bmm-skills/phase-3-creative/workflows/create-campaign-brief/workflow.md`. Execute each step file sequentially as instructed in the workflow.

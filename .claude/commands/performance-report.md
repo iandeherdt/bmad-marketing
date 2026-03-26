@@ -1,0 +1,1 @@
+Read and activate the performance report workflow. First load Aria's persona from `src/bmm-skills/phase-5-analytics/aria-analytics-lead/SKILL.md`, then read and follow the workflow at `src/bmm-skills/phase-5-analytics/workflows/create-performance-report/workflow.md`. Execute each step file sequentially as instructed in the workflow.
