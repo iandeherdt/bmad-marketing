@@ -1,0 +1,61 @@
+code: bmm
+name: "BMAD Marketing Team"
+version: "1.0.0"
+
+# Project configuration — set via /init
+project_name:
+  prompt: "What is your product or service called?"
+  default: "{directory_name}"
+
+target_audience:
+  prompt: "Who is your primary target audience?"
+  default: ""
+
+business_goals:
+  prompt: "What are your top marketing goals?"
+  default: ""
+
+marketing_maturity:
+  prompt: "What is your current marketing maturity level?"
+  single-select:
+    - value: "startup"
+      label: "Startup - Building from scratch"
+    - value: "growing"
+      label: "Growing - Have basics, scaling up"
+    - value: "established"
+      label: "Established - Optimizing existing programs"
+
+budget_range:
+  prompt: "What is your approximate marketing budget range?"
+  single-select:
+    - value: "bootstrap"
+      label: "Bootstrap - Minimal budget, organic focus"
+    - value: "moderate"
+      label: "Moderate - Some paid, mostly organic"
+    - value: "growth"
+      label: "Growth - Significant paid + organic"
+    - value: "enterprise"
+      label: "Enterprise - Full-scale multi-channel"
+
+# Output configuration
+output_folder:
+  prompt: "Where should generated deliverables be saved?"
+  default: "docs/output"
+
+# Phase definitions
+phases:
+  - code: research
+    name: "Research & Discovery"
+    agent: maya
+  - code: strategy
+    name: "Strategy & Planning"
+    agent: sam
+  - code: creative
+    name: "Creative & Content"
+    agent: claire
+  - code: execution
+    name: "Execution & Launch"
+    agent: derek
+  - code: analytics
+    name: "Analyze & Optimize"
+    agent: aria
